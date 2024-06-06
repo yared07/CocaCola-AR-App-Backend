@@ -1,0 +1,16 @@
+{
+    "rules":{
+        "users":{
+            ".indexOn":["phone_number"]
+        },
+        "questions": {
+            ".indexOn":["relation"]
+        },
+        "scores": {
+            ".indexOn":["respondentId"]
+        },
+        "linkInfo": {
+            ".indexOn": ["inviterId"]
+        }
+    }
+}
